@@ -1,0 +1,508 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+	<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	
+	
+	<meta name="generator" content="Hugo 0.56.3" />
+	<title>Lajilao</title>
+		<style>
+			*{
+				margin: 0px;
+				padding: 0px;
+				
+			}
+			.aside{
+				width:100px;
+				height:100px;
+				background: red;
+			}
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			html {
+				background: whitesmoke;
+			}
+			
+			body {
+				width: 1000px;
+				margin: auto;
+			}
+			
+			header {
+				width: 1000px;
+				height: 250px;
+				background: #00B2BF;
+				background-image: url(img/header/sky-1611044_1280.png);
+			}
+			
+			header a {
+				color: white;
+				font-size: 40px;
+				font-family: "华文彩云";
+				text-decoration: none;
+				line-height: 70px;
+				margin-left: 20px;
+				float: left;
+			}
+			
+			header ul {
+				list-style: none;
+				margin-left: 500px;
+			}
+			
+			
+			header ul li a {
+				font-family: "微软雅黑";
+				font-size: 20px;
+				margin-left: 10px;
+				margin-right: 25px;
+			}
+			
+			header ul li a:hover {
+				border-radius: 20px;
+				background: orange;
+			}
+			
+			header .shijie:hover {
+				-webkit-transform: scale(1.5);
+				-webkit-transition: 2s;
+				text-shadow: 5px 5px 5px orange;
+			}
+			
+			section {
+				height: 900px;
+				width: 350px;
+				background: lightgray;
+				box-sizing: border-box;
+				float: left;
+			}
+			
+			aside {
+				height: 900px;
+				width: 650px;
+				background: lightgray;
+				box-sizing: border-box;
+				float: right;
+			}
+			
+			footer {
+				height: 100px;
+				background: #67BF7F;
+				clear: both;
+			}
+			
+			section ul {
+				list-style: none;
+				padding-top: 7px;
+				padding-left: 20px;
+			}
+			
+			section ul li {
+				margin-top: 30px;
+				background: white;
+				width: 150px;
+				height: 30px;
+				text-align: center;
+				border-radius: 10px;
+				box-shadow: 5px 5px 5px darkgray;
+			}
+			
+			section ul li a {
+				text-decoration: none;
+				font-family: "微软雅黑";
+				font-size: 20px;
+				color: black;
+			}
+			
+			section ul li:hover {
+				background: orange;
+				box-shadow: 10px 10px 10px black;
+				-webkit-transform: translateX(30px);
+	            -webkit-transition: 0.5s;
+			}
+			
+			section input {
+				margin: 70px 0 0 20px;
+				height: 30px;
+				width: 280px;
+				border-radius: 10px;
+				background: whitesmoke;
+				border: 1px solid white;
+			}
+			
+			section input:hover {
+				border: 2px solid orange;
+				color: white;
+				-webkit-transform: scale(1.1);
+	            -webkit-transition: 0.5s;
+			}
+			
+			section p {
+				font-family: "微软雅黑";
+				font-size: 20px;
+				margin-left: 25px;
+				padding-top: 100px;
+				text-shadow: 2px 2px 2px gray;
+			}
+			
+			section textarea {
+				width: 250px;
+				height: 300px;
+				border-radius: 10px;
+				margin: 20px 0 10px 20px;
+				color: gray;
+				font-family: "微软雅黑";
+				font-style: oblique;
+			}
+			
+			section textarea:hover {
+				border-color: orange;
+				color: orange;
+				
+			}
+			
+			section select {
+				width: 150px;
+				height: 30px;
+				border-radius: 10px;
+				font-family: "微软雅黑";
+				font-size: 15px;
+				margin-left: 30px;
+			}
+			
+			section select:hover {
+				color: orange;
+				background: url(img/timg.jpg);
+			}
+			
+			section button {
+				margin: 20px 0 0 25px;
+				width: 40px;
+				background: white;
+				font-family: "微软雅黑";
+				border-radius: 10px;
+				border: 0px;
+			}
+			
+			section button:hover {
+				border: 4px solid orange;
+                border-radius: 100px;
+	            -webkit-transition: 0.5s;
+			}
+			section button:active{
+				border: 5px solid orangered;
+			}
+			
+			.aside {
+				width: 600px;
+				height: 150px;
+				background: whitesmoke;
+				border-radius: 10px;
+				margin: 50px 0 0 20px;
+				display: table;
+			}
+			
+			.aside:hover {
+				-webkit-transform: scale(1.1);
+				-webkit-transition: 1s;
+				box-shadow: 5px 5px 5px gray;
+			}
+			
+			.aside img {
+				height: 100px;
+				width: 100px;
+				border-radius: 10px;
+				margin: 25px 10px 10px 20px;
+			}
+			
+			.aside a img:hover {
+				-webkit-transform: scale(1.5);
+				-webkit-transition: all 3s;
+			}
+			
+			.aside div:nth-child(1) {
+				float: left;
+				margin-right: 20px;
+			}
+			
+			.aside div:nth-child(2) {
+				margin: 30px 0 0 30px;
+			}
+			
+			.aside div a {
+				font-family: "微软雅黑";
+				font-size: 20px;
+				color: black;
+			}
+			
+			.aside p {
+				font-family: "微软雅黑";
+				font-size: 0.9em;
+				color: darkslateblue;
+				margin-right: 20px;
+			}
+			
+			aside .top {
+				width: 80px;
+				height: 40px;
+				background: white;
+				border-radius: 100px;
+				margin: auto;
+				margin-top: 30px;
+				text-align: center;
+				line-height: 40px;
+			}
+			
+			aside .top a {
+				text-decoration: none;
+				color: black;
+				font-family: "agency fb";
+			}
+			
+			aside .top:hover {
+				 border-radius: 100px;
+				width: 40px;
+				border: 3px solid orange;
+				-webkit-transform: rotate(90deg);
+				-webkit-transition: 1s;
+				
+
+			}
+			
+			footer .table {
+				display: table;
+			}
+			
+			footer .tr {
+				display: table-row;
+			}
+			
+			footer .td {
+				display: table-cell;
+				padding-top: 20px;
+				padding-left: 20px;
+			}
+			
+			footer div ul {
+				list-style: none;
+				margin-left: -15px;
+			}
+			
+			footer div ul li {
+				float: left;
+			}
+			
+			footer div ul li a {
+				color: whitesmoke;
+				font-family: "微软雅黑";
+				text-decoration: none;
+				margin-left: 20px;
+			}
+			
+			footer .copy {
+				margin: auto;
+				text-align: center;
+				margin-top: 30px;
+				font-size: 0.8em;
+			}
+			
+			footer div a img {
+				width: 50px;
+				height: 50px;
+				float: right;
+				margin-top: -30px;
+				margin-right: 20px;
+			}
+			
+			footer div a .bilibili {
+				width: 70px;
+			}
+			
+			footer div a .wyyyy {
+				width: 90px;
+			}
+			.donghua:hover{
+				-webkit-transform: translateY(30px);
+	            -webkit-transition: 0.5s;
+	            
+			}
+		</style>	
+	<!-- Stylesheets -->
+	
+	<link rel="stylesheet" href="http://hhhxswl.github.io/css/main.css"/>
+	
+	
+
+	
+
+	<!-- Custom Fonts -->
+	<link href="http://hhhxswl.github.io/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="js/ie/html5shiv.js"></script>
+	<script src="js/ie/html5shiv.jsrespond.min.js"></script>
+	<![endif]-->
+</head>
+
+<header>
+	<a href="#" class="shijie">shijie</a>
+	<ul>
+		<li>
+			<a href="#" class="donghua">首页</a>
+		</li>
+		<li>
+			<a href="Eason.html" class="donghua">我的idol</a>
+		</li>
+		<li>
+			<a href="Hometwon.html" class="donghua">家乡风情</a>
+		</li>
+		<li>
+			<a href="Reading.html" target="_blank" class="donghua">阅读分享</a>
+		</li>
+	</ul>
+</header>
+
+<section>
+	<input placeholder="搜索点什么...">
+	<ul>
+		<li>
+			<a href="Eason.html">idol动态</a>
+		</li>
+		<li>
+			<a href="Dxlyx.html">家乡新闻</a>
+		</li>
+		<li>
+			<a href="Zhuchanglu.html">周边生活</a>
+		</li>
+		<li>
+			<a href="Reading.html">阅读分享</a>
+		</li>
+	</ul>
+
+	<p>留言板</p>
+	<textarea>想说些什么呢？</textarea>
+	<select>
+		<option>留言心情</option>
+		<option>(*￣︶￣)非常开心呢的说</option>
+		<option>~(￣▽￣)~一般般洒洒水啊</option>
+		<option>o(╥﹏╥)o系有滴唔开心啊</option>
+	</select>
+	<button>提交</button>
+</section>
+<aside>
+	<div class="aside aside1">
+		<div>
+			<a href="#"><img src="img/aside/love.jpg"></a>
+		</div>
+		<div>
+			<a href="Eason.html">Eason终于出新专辑啦，快滴来听下(*￣︶￣)</a>
+		</div><br>
+		<p>新专辑《L.O.V.E.》终于面世啦，由the duo band 打造的全新大碟里面包含了国语，粤语和英文歌哦~我最中意《我们万岁》，你pick边一首？
+		</p>
+
+	</div>
+	<div class="aside aside2">
+		<div>
+			<a href="#"><img src="img/aside/seasi.jpg"></a>
+		</div>
+		<div>
+			<a href="Hometwon.html">盛夏来临，准备好去海边了吗？~</a>
+		</div><br>
+		<p>阳江海陵岛大角湾风景名胜区，位于广东省阳江市海陵岛闸坡镇内，这里不仅有蓝天白云海滩，更有海上丝绸之路博物馆哦~</p>
+	</div>
+
+	<div class="aside aside3">
+		<div>
+			<a href="zhuchanglu.html" target="_blank"><img src="img/aside/zhucahnglu.jpg"></a>
+		</div>
+		<div>
+			<a href="zhuchanglu.html" target="_blank">阳江猪肠碌，包你食到返寻味</a>
+		</div><br>
+		<p>猪肠碌是广东阳江著名的传统小吃，当地招牌特色小食，属于粤菜系。因为猪肠碌外形呈圆条形，貌似猪肠，因此取名猪肠碌。
+		</p>
+	</div>
+	<div class="aside aside4">
+		<div>
+			<a href="#"><img src="img/aside/wlake.jpg"></a>
+		</div>
+		<div>
+			<a href="Reading.html">《瓦尔登湖》这本书好看在哪里</a>
+		</div><br>
+		<p>远离城市喧嚣，崇尚简朴生活，热爱大自然的风光。适合在安静的时候读，读了之后也体会安静的美好
+		</p>
+	</div>
+	<div class="top">
+		<a href="#">更多</a>
+	</div>
+</aside>
+<footer>
+	<div class="table">
+		<div class="tr">
+			<div class="td">
+				<ul>
+					<li>
+						<a href="#">关于我们</a>
+					</li>
+					<li>
+						<a href="#">帮助中心</a>
+					</li>
+					<li>
+						<a href="#">问题反馈</a>
+					</li>
+					<li>
+						<a href="#">联系我们</a>
+					</li>
+					<li>
+						<a>订阅页面：<input type="email" placeholder="请输入邮箱"></a>&nbsp;<button>订阅</button></li>
+					<li>
+						<a href="#">友情链接：</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<a href="http://www.sise.com.cn"><img src="img/footer/sise.jpg"></a>
+	</div>
+	<div>
+		<a href="https://www.bilibili.com/"><img src="img/footer/bilibili.jpg" class="bilibili"></a>
+	</div>
+	<div>
+		<a href="https://music.163.com/"><img src="img/footer/wyyyy.jpg" class="wyyyy"></a>
+	</div>
+
+	<div class="copy">Copyright @ 2018-2019 All Rights Reserved.&nbsp;&nbsp;&nbsp;广大华软 1840225117 戴世杰</div>
+</footer>
+</body>
+	<!-- Scripts -->
+		<!-- Scripts -->
+    <!-- jQuery -->
+    <script src="http://hhhxswl.github.io/js/jquery.min.js"></script>
+    <script src="http://hhhxswl.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="http://hhhxswl.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="http://hhhxswl.github.io/js/skel.min.js"></script>
+    <script src="http://hhhxswl.github.io/js/util.js"></script>
+
+    
+
+    <!-- Main JS -->
+    <script src="http://hhhxswl.github.io/js/main.js"></script>
+
+    
+	
+    
+
+	</body>
+</html>
