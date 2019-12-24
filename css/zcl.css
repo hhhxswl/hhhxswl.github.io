@@ -1,0 +1,154 @@
+            * {
+            	margin: 0px;
+            	padding: 0px;
+            }
+            
+            html {
+            	font-size: 16px;
+            }
+            
+            body {
+            	width: 100%;
+            	background: darkred;
+            }
+            
+            header {
+            	width: 100%;
+            	height: 100px;
+            }
+            
+            header ul {
+            	margin-left: 30px;
+            	margin-top: 20px;
+            	list-style: none;
+            }
+            
+            header ul li {
+            	float: left;
+            }
+            
+            header ul li a {
+            	text-decoration: none;
+            	font-size: 1.4rem;
+            	line-height: 80px;
+            	margin-left: 20px;
+            	margin-right: 20px;
+            	color: white;
+            	font-family: "微软雅黑";
+            }
+            
+            header ul li a:hover {
+            	background: darkorange;
+            	border-radius: 20px;
+            	padding: 10px;
+            }
+            
+            .main1 {
+            	height: 610px;
+            	display: flex;
+            }
+            
+            section {
+            	width: 30%;
+            	box-sizing: border-box;
+            	float: left;
+            }
+            
+            .zclsec {
+            	margin: auto;
+            }
+            
+            section div ul {
+            	list-style: none;
+            }
+            
+            section div ul li {
+            	margin-bottom: 20px;
+            	margin-top: 20px;
+            	border: 2px dotted orange;
+            	padding: 8px;
+            	padding-left: 10px;
+            	padding-right: 10px;
+            	border-radius: 50px;
+            }
+            
+            section div ul li:hover {
+            	border: 2px solid orange;
+            }
+            
+            section div ul li a {
+            	font-family: "微软雅黑";
+            	font-size: 1.3rem;
+            	color: whitesmoke;
+            	text-decoration: none;
+            }
+            
+            aside {
+            	width: 70%;
+            	box-sizing: border-box;
+            	float: right;
+            }
+            
+            aside iframe {
+            	width: 98%;
+            	background: url(../img/zhuchanglu/zcl1.jpg) no-repeat;
+            	background-size: contain;
+            	background-position: center;
+            	border: 0px;
+            	/*height: 580px;*/
+            }
+            
+            footer {
+            	height: 100px;
+            	background-color: darkorange;
+            	clear: both;
+            }
+            
+            footer div {
+            	display: flex;
+            	justify-content: center;
+            }
+            
+            footer div ul {
+            	margin-top: 10px;
+            	line-height: 60px;
+            	list-style: none;
+            }
+            
+            footer div ul li {
+            	float: left;
+            	margin-left: 20px;
+            	margin-right: 20px;
+            }
+            
+            footer div ul li a {
+            	text-decoration: none;
+            	font-family: "微软雅黑";
+            	color: darkred;
+            }
+            
+            .copyz {
+            	margin-top: 8px;
+            	font-family: "微软雅黑";
+            	font-size: 0.9rem;
+            }
+            /*@media only screen and (max-width: 1400px) {
+				header ul li a {
+					flex-direction: column;
+					flex-wrap: nowrap;
+					font-size: 1.2rem;
+				}
+			}*/
+            
+            @media only screen and (max-width: 1000px) header ul li a {
+            	flex-direction: column;
+            	flex-wrap: nowrap;
+            	font-size: 1.1rem;
+            }
+            
+            @media only screen and (max-width: 800px) {
+            	header ul li a {
+            		font-size: 1rem;
+            		flex-wrap: wrap;
+            	}
+            }

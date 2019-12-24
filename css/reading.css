@@ -1,0 +1,209 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+html{
+	background: darkslategrey;
+}
+body{
+	width: 1280px;
+	margin: auto;
+}
+header{
+	height: 499px;
+	background: url(../img/Reading/header/rreadingmain.jpg) no-repeat;
+	
+}
+header a img{
+	margin: 10px 0 0 20px;
+	padding-top: 20px;
+	}
+	header a img:hover{
+		-webkit-transform: translateX(20px);
+		
+		
+		-webkit-transition: 1s;
+	}
+	nav{
+		height: 54px;
+		background: #055169;
+		
+
+	}
+	nav ul{
+		list-style: none;
+		padding-top: 10px;
+
+		
+		
+	}
+	nav ul li{
+		float: left;
+		margin-left: 75px;
+		
+	}
+	nav ul li a{
+		font-family: "微软雅黑";
+		font-size: 1.4em;
+		text-decoration: none;
+		margin: 10px 20px 10px 20px;
+		color: white;
+	}
+	nav ul li a:hover{
+		text-shadow: 5px 5px 5px black;
+		color: orange;
+		
+	}
+	.main{
+		display: flex;
+		box-sizing: 0px;
+	}
+	.main aside{
+		flex: 2;
+		background: #a3cccd;
+	}
+	.main section{
+		flex: 4;
+	}
+	.asisec{
+		height: 1020px;
+		box-sizing: border-box;
+		
+	}
+	.aside1{
+		/*height: 1020px;*/
+	}
+	.table{
+		display: table;
+		box-sizing: border-box;
+	}
+	.tr{
+		display: table-row;
+	}
+	.td{
+		display: table-cell;
+	}
+	aside div figure{
+		margin-top: 20px;
+		text-align: center;
+	}
+	aside div figure figcaption{
+		text-align: center;
+		margin-top: 10px;
+		font-family: "微软雅黑";
+		font-size: 1.1em;
+	}
+	aside div figure figcaption a{
+		text-decoration: none;
+		color: #055169;
+	}
+	aside div figure figcaption a:hover{
+		color: white;
+		background: orange;
+		padding: 1px;
+		border-radius: 50px;
+		
+	}
+	aside div figure img{
+		width: 150px;
+		height: 200px;
+		border: 3px #055169 solid;
+		margin: 5px;
+		
+	}
+	aside div figure img:hover{
+		box-shadow: 2px 2px 2px black;
+	}
+	.intro{
+		font-size: 0.85em;
+		font-family: "微软雅黑";
+		margin: 10px;
+		
+
+	}
+	.main section iframe{
+		width: 96.8%;
+		height: 995px;
+		border: 10px double saddlebrown;;
+		background: burlywood;		
+	}
+	
+	footer{
+		height: 150px;
+		background: steelblue;
+	}
+	footer ul{
+		list-style: none;
+		padding-left: 50px;
+
+
+		
+	}
+	footer ul li{
+		float: left;
+		margin: 20px 0 0 20px;
+		
+
+	}
+	footer ul li a{
+		text-decoration: none;
+		font-family: "微软雅黑";
+		font-size: 1em;
+		color: white;
+
+		
+	}
+	footer .content{
+		float: left;
+		
+		margin-right: 20px;
+	}
+	footer img{
+		width: 100px;
+		height: 50px;
+		float: right;
+		margin-left: 40px;
+		margin-bottom: 55px;
+		
+
+	}
+	footer div code{
+		display: block;
+		margin-top: -40px;
+		margin-left: 40px;
+		color: ghostwhite;
+		line-height: 20px;
+	}
+	.footerright{
+		
+		color: ghostwhite;
+		font-family: "微软雅黑";
+	}
+	.footerright legend{
+		text-align: center;
+	}
+	.footerright form{
+		
+		margin: -120px 0 0 80px;
+	}
+	footer button{
+		border: 1px solid orange;
+		color: white;
+		background: orange;
+		font-family: "微软雅黑";
+	}
+	footer .checkbox{
+		width: 15px;
+		height: 15px;
+		display: inline;
+		
+		
+	}
+	footer .xuanze{
+		display: inline;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
+	

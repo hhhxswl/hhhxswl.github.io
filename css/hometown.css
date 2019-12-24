@@ -1,0 +1,139 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width: 100%;
+}
+
+header {
+	background-image: url(../img/aside/seasi.jpg);
+	height: 800px;
+	background-size: cover;
+}
+
+img:hover {
+	-webkit-transform: translateY(15px);
+	-webkit-transition: 0.5s;
+	box-shadow: 5px 5px 5px deepskyblue;
+	border-radius: 50px;
+	
+}
+
+div a {
+	display: flex;
+	justify-content: center;
+	padding-top: 130px;
+}
+
+input{
+	width: 60%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-top: 270px;
+	border-radius: 100px;
+	border: 0px;
+	background: whitesmoke;
+	
+}
+::-webkit-input-placeholder{
+	color: darkgray;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 1.1em;
+	padding-left: 20px;
+}
+
+input:hover{
+	border: 5px solid lightseagreen;
+	padding: 10px;
+-webkit-transform: translateY(15px);
+	-webkit-transition: 1s;
+
+	
+
+}
+
+header .nav {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+header .nav ul {
+	list-style: none;
+}
+
+header .nav ul li {
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+header .nav ul li a {
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 1.3rem;
+	color: white;
+
+}
+
+header .nav ul li a:hover {
+	font-size: 2rem;
+	color: lightseagreen;
+	font-weight: bold;
+	-webkit-transform: translateY(-30px);
+	-webkit-transition: 0.5s;
+	
+}
+
+footer {
+	height: 120px;
+	background: lightblue;
+}
+
+footer ul {
+	padding-top: 15px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+footer ul li {
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: white;
+
+}
+
+footer div {
+	display: flex;
+	justify-content: center;
+}
+
+footer img {
+	margin-top: 20px;
+	width: 85px;
+	height: 40px;
+}
+
+footer div p {
+	margin-top: 18px;
+	font-family: "微软雅黑";
+	color: white;
+}
+
+.hfp {
+	font-size: 0.85em;
+	margin-top: 5px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
